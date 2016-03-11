@@ -50,4 +50,4 @@ $wt create --bundle --no-parse --secret SECRETS_URL=https://super-secret.com/uni
 ## Pusher only support 10k messages!
 There are two very important things to remember though
   - Pusher only allows you to have 10KB messages.
-  - If you are posting more than 10KB text in your chatroom, you are evil.
+  - If you are posting more than 10KB text in your chatroom, you are evil. Read the license!
