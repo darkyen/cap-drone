@@ -47,7 +47,7 @@ $wt create --bundle --no-parse --secret SECRETS_URL=https://super-secret.com/uni
    cat picture.
 2. Add that to `/hookHandlers/index.js` keep in mind the name of the handler is what you would want to point in your webhook and in your secrets/config.json file.
 
-## Pusher only support 10k messages!
-There are two very important things to remember though
-  - Pusher only allows you to have 10KB messages.
+## Pusher problems ?
+There are two very important things to remember
+  - Pusher allows you to send max 10KB messages.
   - If you are posting more than 10KB text in your chatroom, you are evil. Read the license!
